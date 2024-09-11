@@ -415,17 +415,26 @@ LightGBM Model (m2):
 
 Train Results:
 
-Accuracy: 94.65%
+Accuracy: 0.9465541803935535
 
-Macro F1 Score: 94.66%
+Macro F1 Score: 0.9465900257107025
+
+Precision: 0.9467997563226564
+
+Recall: 0.9465541803935537
+
 
 ![image](https://github.com/user-attachments/assets/2e71f3d0-34ec-4ae2-af67-fb8de67d0131)
 
 Test Results:
 
-Accuracy: 90.40%
+Accuracy: 0.9040005139909205
 
-Macro F1 Score: 90.40%
+Macro F1 Score: 0.904019332303855
+
+Precision: 0.9040486335261567
+
+Recall: 0.9040005139909205
 
 ![image](https://github.com/user-attachments/assets/6ae4e50a-a430-4486-8f56-32b2eb98d8b6)
 
@@ -433,17 +442,25 @@ Decision Tree Model (m3):
 
 Train Results:
 
-Accuracy: 95.95%
+Accuracy: 0.9595464933368949
 
-Macro F1 Score: 95.95%
+Macro F1 Score: 0.9595478308056423
+
+Precision: 0.9595500125690446
+
+Recall: 0.9595464933368949
 
 ![image](https://github.com/user-attachments/assets/7c110da8-1819-4d1d-bd84-fbf1f44d9358)
 
 Test Results:
 
-Accuracy: 87.64%
+Accuracy: 0.8764494324926954
 
-Macro F1 Score: 87.63%
+Macro F1 Score: 0.8763264324926954
+
+Precision: 0.8695500125687446
+
+Recall: 0.8795464933539949
 
 ![image](https://github.com/user-attachments/assets/d4f54a7e-ab0d-4f10-99c7-3defbcda63f3)
 
@@ -452,17 +469,25 @@ XGBoost Model (m1):
 
 Train Results:
 
-Accuracy: 93.36%
+Accuracy: 0.9336286468999495
 
-Macro F1 Score: 93.37%
+Macro F1 Score: 0.9336665901496163
+
+Precision: 0.9339990601068985
+
+Recall: 0.9336286468999496
 
 ![image](https://github.com/user-attachments/assets/e14c5ef8-9d97-4719-84ee-3a3ebfbb8b7c)
 
 Test Results:
 
-Accuracy: 88.61%
+Accuracy: 0.8861495509150352
 
-Macro F1 Score: 88.59%
+Macro F1 Score: 0.8859237182744844
+
+Precision: 0.8865937934362286
+
+Recall: 0.8861495509150353
 
 ![image](https://github.com/user-attachments/assets/550206cd-8618-46c2-807b-4e74f8c578f5)
 
