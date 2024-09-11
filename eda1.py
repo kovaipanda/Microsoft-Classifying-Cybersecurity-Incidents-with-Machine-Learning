@@ -25,4 +25,4 @@ print(df_cleaned.head())
 print(df.isnull().sum())
 
 
-#This whole process is repeated for test dataset and saved in test1
+#This whole process is repeated for test dataset with droping the 'Usage' column and saved in test1
