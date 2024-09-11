@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.utils import resample
 
 # Load your dataset
-df = pd.read_csv(r"C:\Users\Jeffery\Downloads\cyber_security_microsoft\train3.csv")
+df = pd.read_csv(r"C:\Users\DELL\Downloads\cyber_security_microsoft\train3.csv")
 
 # Identify the target column
 target_column = 'IncidentGrade'
@@ -29,10 +29,10 @@ df_balanced = pd.concat(resampled_classes)
 df_balanced = df_balanced.sample(frac=1, random_state=42).reset_index(drop=True)
 
 # Save the balanced DataFrame to a new CSV file
-df_balanced.to_csv(r"C:\Users\Jeffery\Downloads\cyber_security_microsoft\train4.csv", index=False)
+df_balanced.to_csv(r"C:\Users\DELL\Downloads\cyber_security_microsoft\train4.csv", index=False)
 
 # Verify saved file by printing first few rows and class distribution (optional)
 print("DataFrame with balanced classes saved as train_balanced.csv")
 print(df_balanced[target_column].value_counts())
 
-#Repeat the whole process for test3
+#Repeat the whole process for test3 and save in test4
