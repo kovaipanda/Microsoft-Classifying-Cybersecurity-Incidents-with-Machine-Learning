@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load your dataset
-df = pd.read_csv(r"C:\Users\Jeffery\Downloads\cyber_security_microsoft\train1.csv")
+df = pd.read_csv(r"C:\Users\DELL\Downloads\cyber_security_microsoft\train1.csv")
 
 # Convert Timestamp to datetime object
 df['Timestamp'] = pd.to_datetime(df['Timestamp'])
@@ -21,7 +21,7 @@ df['IsWeekend'] = df['DayOfWeek'].apply(lambda x: 1 if x >= 5 else 0)
 df = df.drop(columns=['Timestamp'])
 
 # Save the updated DataFrame to a new CSV file
-df.to_csv(r"C:\Users\Jeffery\Downloads\cyber_security_microsoft\train2.csv", index=False)
+df.to_csv(r"C:\Users\DELL\Downloads\cyber_security_microsoft\train2.csv", index=False)
 
 # Verify saved file by printing first few rows (optional)
 print("DataFrame with new features saved as train_with_features.csv")
