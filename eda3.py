@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.preprocessing import OneHotEncoder, LabelEncoder
 
 # Load your dataset
-df = pd.read_csv(r"C:\Users\Jeffery\Downloads\cyber_security_microsoft\train2.csv")
+df = pd.read_csv(r"C:\Users\DELL\Downloads\cyber_security_microsoft\train2.csv")
 
 # Initialize encoders
 one_hot_encoder = OneHotEncoder(sparse=False, drop='first')  # Drop first to avoid multicollinearity
@@ -37,7 +37,7 @@ df = df.drop(columns=['Category', 'EntityType', 'EvidenceRole'])
 df = df.drop(columns=['EntityType_KubernetesCluster','EntityType_GoogleCloudResource','Category_Weaponization'])
 
 # Save the updated DataFrame to a new CSV file
-df.to_csv(r"C:\Users\Jeffery\Downloads\cyber_security_microsoft\train3.csv", index=False)
+df.to_csv(r"C:\Users\DELL\Downloads\cyber_security_microsoft\train3.csv", index=False)
 
 # Verify saved file by printing first few rows (optional)
 print("DataFrame with encoded features saved as train_encoded.csv")
